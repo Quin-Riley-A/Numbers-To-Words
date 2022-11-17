@@ -12,5 +12,11 @@ namespace NumToWords.Tests
       NumConvert numConvertObj = new NumConvert();
       Assert.AreEqual(typeof(NumConvert), numConvertObj.GetType());
     }
+
+    [TestMethod] 
+    public void StringToInt_ReturnInt_Return0()
+    {
+
+    }
   }
 }
